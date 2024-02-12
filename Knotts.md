@@ -1,0 +1,3 @@
+#Knotts Reading Response
+-
+Something interesting I learned from the Knotts article is about the overarching role of the internet in both social change and musical pioneering. Much like Twitter plays a central role in protests against autocratic political leaders, without the threat of endangerment from the existing political system, new internet-based systems for creating music have empowered people that would otherwise struggle within an ensemble dynamic. One thing I had already considered before was the similarity of anarchy to freely improvised music. As someone who has experience in improvised/free music, I can attest that this style affords a greater sense of individuality than notated music does.
