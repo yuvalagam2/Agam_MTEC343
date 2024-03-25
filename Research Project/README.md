@@ -1,12 +1,11 @@
-# Yuval Agam's MTEC-343 Midterm Project
+## Works Cited
 
-My goal is to research and present on the work of Francesco Corvi (nesso.xyz), specifically his use of Tidal Cycles. I encountered a [video](https://www.youtube.com/watch?v=ww8SceHFOn8&t=677s) of one of his live performances, which raised the following questions:
+- Corvi, Francesco. “Francesco Corvi - Live Coding Performance.” YouTube, YouTube, 13 Mar. 2023, www.youtube.com/watch?v=ww8SceHFOn8&t=773s.
 
-- How does he create seamless transitions between sections of his performance?
-- How is he using Tidal Cycles for sound design? Is he integrating other softwares? Does he rely on sampling techniques similar to Dirt samples?
+- Corvi, Francesco. “Live Code Your Track Live - Nesso.” YouTube, YouTube, 26 Mar. 2020, www.youtube.com/watch?v=0uBTvp9WN5c&list=PLoCenMGEx_OzM9i-4SvRFz3ZBdKnC0CVw&index=3.
 
-I have reached out to Corvi regarding his creative process, and if he has any code samples to share for this specific performance. Here are some resources I have found:
+- Fracnesco. “FRACNESCO/Tidaltutorials: Series of Tidalcycles Tutorials.” GitHub, 9 Aug. 2021, github.com/fracnesco/TidalTutorials.
 
-- [Github profile](https://github.com/fracnesco) with a repo called "TidalTutorials"
-- [Website](https://www.nesso.xyz/)
--  [Press](https://www.stirworld.com/see-features-francesco-corvi-s-live-coding-builds-his-digital-and-audiovisual-installations)
+- “Live Coder, Sound Designer, Multimedia Artist.” Francesco Corvi, www.nesso.xyz/. 
+
+- Sharma, Manu. “Francesco Corvi’s Live Coding Builds His Digital and Audiovisual Installations.” STIRworld, STIRworld.com, 5 Mar. 2023, www.stirworld.com/see-features-francesco-corvi-s-live-coding-builds-his-digital-and-audiovisual-installations. 
