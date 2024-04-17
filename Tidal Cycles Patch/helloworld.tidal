@@ -1,0 +1,11 @@
+d1 $ stack [
+s "[hh hh?]*8",
+slow 1.5 $ every 4 (fast 2) $ s "bd/2 bd ~" # gain 1.1,
+n (run 8) # s "amencutup"
+] # gain 0.85
+
+let a p = fast 2 $ (0.25 <~) $ p
+
+d2 $ every 4 a $ s "jungbass" # n (irand 19) # legato "[0.9 | 0.125]"
+
+hush
