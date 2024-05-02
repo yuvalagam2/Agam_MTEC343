@@ -4,23 +4,27 @@ d1 $ stack [
     # s "dr"
     # squiz "<1.7 2 4 8 16>",
   echo 4 0.125 0.8 $
-  s "[~ [bd:17 bd:17*[2 | 3 | [5 8]]]]"
+  s "[~ [bd:17 bd:17*[2 | 3 | {5 8}]]]"
     # hpf sine # crush 8,
-  s "bd?"
+    s "bd?"
 ] # pan (fast 2 $ square) # lpf (range 1000 5000 $ sine)
 
 d2 $
-  every 4 (fast 2) $
+  every 4 ((fast 2) . (sometimesBy 0.65 (# speed "<1.2 1.4 1.6>"))) $
   s "<jungbass:8(5, 8) [jungbass:3 | jungbass:9]>"
-    # legato 0.8
+    # legato (slow 8 $ range 0.4 0.8 $ sine)
 
 d3 $ stack [
-  sometimes (# speed 10) $
+  sometimes (# speed (choose [30,50])) $
   slow (choose [3,4]) $
-  degradeBy 0.2 $
+  degradeBy 0.15 $
   n "12*[23 | 29 | 37]" # sound "cosmicg"
-    # gain 0.8,
-  s "cosmicg" # gain ((0.5 <~) $ slow 8 $ range 0.5 0.75 $ sine)
+    # gain 0.8
+    # speed "[4.8 | 5 | 5.2]",
+  (0.5 <~) $
+  s "cosmicg" # gain (slow 8 $ range 0.4 0.65 $ sine)
 ]
 
 hush
+
+setcps 0.5625
